@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-section
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #07352d;
+    text-align: center;
+    color: white;
+    height: 56px;
+}
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 201, 18);
+    height: 90.26vh;
+}
+
+.game_elements {
+    height: 225px;
+    background-color: #5e10a7;
+    width: 499px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    transition: 0.25s;
+}
+
+.game_elements:hover {
+    height: 255px;
+    background-color: #39046b;
+    width: 523px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+
+#num_1, #num_2 {
+    width: 76px;
+    height: 29px;
+}
+
+.btn-container button {
+    margin-top: 8px;
+    width: 174px;
+    height: 43px;
+    border-radius: 13px;
+    font-size: 16px;
+    background-color: rgb(141, 9, 101);
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+.btn-container button:hover {
+    margin-top: 8px;
+    width: 174px;
+    height: 43px;
+    border-radius: 17px;
+    font-size: 16px;
+    background-color: rgb(77, 6, 55);
+    color: #ffffff;
+}
+
+.input-container input {
+    height: 30px;
+    outline: none;
+    border-radius: 7px;
+    text-align: center;
+    height: 42px;
+    font-size: 14px;
+}
+
+.add_sign {
+    color: #ffffff;
+    font-size: 33px;
+}
+
+.question_num {
+    color: #ffffff;
+    font-size: 33px;
+}
+
+.head-section-div
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer
+{
+    height: 24px;
+    background-color: #121f02;
+    color: white;
+    text-align: center;
+}
+
+.footer p
+{
+    font-size: 22px;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: rgb(240, 88, 113);
+}

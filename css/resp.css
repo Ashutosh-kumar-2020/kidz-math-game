@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+    .game_elements
+    {
+        height: 150px;
+        width: 399px;
+    }
+}
+@media (max-width: 370px) and (min-width: 300px) {
+    .game_elements
+    {
+        height: 190px;
+        width: 299px;
+    }
+}
+
+@media (max-width: 370px) and (min-width: 300px) {
+    .game_elements
+    {
+        height: 190px;
+        width: 230px;
+    }
+}
